@@ -3,7 +3,9 @@ import Calender from "@/components/Calender";
 import Clients from "@/components/Clients";
 import Customers from "@/components/Customers";
 import Feature from "@/components/Feature";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import Marketing from "@/components/Marketing";
 import Nav from "@/components/Nav";
 import Services from "@/components/Services";
 
@@ -18,6 +20,8 @@ export default function Home() {
       <Achievements />
       <Calender />
       <Customers />
+      <Marketing />
+      <Footer />
     </main>
   );
 }

@@ -3,6 +3,8 @@ import { ButtonProps } from "@/types/button";
 
 import loadingIcon from "@/public/assets/icons/Loading.svg";
 
+import Image from "next/image";
+
 const Button: React.FC<ButtonProps> = ({
   size,
   type,
@@ -60,9 +62,13 @@ const Button: React.FC<ButtonProps> = ({
       onClick={onClick}
       disabled={state === "disabled" || state === "loading"}
     >
-      {icon && iconPosition === "left" && <span className="mr-2">{icon}</span>}
+      {icon && iconPosition === "left" && (
+        <Image src={icon} alt="icon" className="mr-2" />
+      )}
       {children}
-      {icon && iconPosition === "right" && <span className="ml-2">{icon}</span>}
+      {icon && iconPosition === "right" && (
+        <Image src={icon} alt="icon" className="ml-2" />
+      )}
       {state === "loading" && (
         <span className="flex items-center justify-center">
           Loading...

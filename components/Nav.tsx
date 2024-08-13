@@ -5,7 +5,7 @@ import Button from "./global/Button";
 
 const Nav = () => {
   return (
-    <div className="w-full h-16 flex items-center justify-between px-[120px] bg-silver fixed top-0 left-0">
+    <div className="w-full h-16 flex items-center justify-between px-[120px] bg-silver fixed top-0 left-0 z-50">
       <Image src={logo} alt="Logo" width={100} height={24} />
       <div className="flex items-center justify-normal gap-[50px]">
         <a href="#" className="text-[#18191F] body-r-2">

@@ -12,7 +12,7 @@ const CustomLink: React.FC<LinkProps> = ({
   children
 }) => {
   const linkClass = classNames(
-    "inline-flex items-center justify-center rounded", // Common styles
+    "inline-flex items-center justify-center rounded font-bold", // Common styles
     {
       // Size classes
       "text-small": size === "small",
