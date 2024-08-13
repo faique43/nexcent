@@ -2,32 +2,78 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  font-family: "Inter";
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.head-1 {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 4.75rem;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.head-2 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 3.75rem;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.head-3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+}
+
+.head-4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+}
+
+.body-r-1 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+
+.body-r-2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.body-r-3 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+.body-r-4 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+.body-m-1 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.75rem;
+}
+
+.body-m-2 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.body-m-3 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+
+.body-m-4 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1rem;
 }
