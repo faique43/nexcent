@@ -52,6 +52,11 @@ const config: Config = {
             disabled: "#F5F7FA"
           }
         },
+        links: {
+          DEFAULT: "#4CAF4F",
+          click: "#388E3B",
+          disabled: "#ABBED1"
+        },
         buttonFont: {
           primary: {
             DEFAULT: "#FFFFFF",
@@ -100,9 +105,29 @@ const config: Config = {
       borderWidth: {
         btn: "2px"
       },
+      borderColor: {
+        link: {
+          focus: "#89939E"
+        }
+      },
       cursor: {
         loading: "progress",
         disabled: "not-allowed"
+      },
+      textDecoration: {
+        hover: "underline",
+        click: "underline"
+      },
+      textDecorationColor: {
+        hover: "#4CAF4F",
+        click: "#388E3B"
+      },
+      boxShadow: {
+        "2px": "0px 2px 4px rgba(171, 190, 209, 0.6)",
+        "4px": "0px 4px 8px rgba(171, 190, 209, 0.4)",
+        "6px": "0px 6px 12px rgba(171, 190, 209, 0.3)",
+        "8px": "0px 8px 16px rgba(171, 190, 209, 0.4)",
+        "16px": "0px 16px 32px rgba(171, 190, 209, 0.3)"
       }
     }
   },

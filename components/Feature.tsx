@@ -11,7 +11,7 @@ const Feature = () => {
         <p className="text-darkGrey head-2 max-w-[601px] text-wrap">
           The unseen of spending three years at Pixelgrade
         </p>
-        <span className="text-grey body-r-2 max-w-[601px] text-wrap mt-4 mb-8">
+        <span className="text-grey body-r-3 max-w-[601px] text-wrap mt-4 mb-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
           justo ipsum. Sed accumsan quam vitae est varius fringilla.
           Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
